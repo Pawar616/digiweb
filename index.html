@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovative Solutions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./demo code/style.css">
+    <style>
+        body {
+            background-image: linear-gradient(to right, #000000, #040496);
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            background-color: #000033;
+        }
+
+        .btn-custom {
+            background-color: white;
+            color: #000033;
+            font-weight: bold;
+        }
+
+        .expertise-item {
+            background-color: #000066;
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .welcome-section {
+            background-color: #0000CC;
+            border-radius: 5px;
+            padding: 40px;
+        }
+
+        .testimonial {
+            background-color: #000066;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .welcome-section-img {
+            height: 500px;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .welcome-section-info {
+            font-size: x-large;
+        }
+
+        footer {
+            background-color: #000033;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p, footer h5, footer form {
+            margin: 0;
+        }
+        .nav-link:hover{
+            color: #fff;
+        }
+
+
+
+        /* button css */
+.footer-name {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #0000CC;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+}
+
+.footer-name:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: white;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+.price{
+    margin-top:80rem ;
+}
+.footer-name:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.footer-name span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-name:hover span {
+  color: #0000CC;
+  animation: scaleUp 0.3s ease-in-out;
+}
+.slider-body{
+    height: 40rem;
+    position: relative;
+}
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <!-- <img src="placeholder-logo.png" alt="Logo" height="30"> -->
+                 <h3>Digispect Technologies</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Book Online</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container text-center my-5">
+        <!-- <h1 class="display-4 fw-bold">Innovative Solutions</h1>
+        <p class="lead fw-bold">Empowering Your Business</p>
+        <button class="btn btn-custom">Learn More</button> -->
+        <div class="slider-body">
+        <div class="container-slied">
+            <div class="slide">
+                <div class="item" style="background-image: url(https://img.freepik.com/free-vector/realistic-technology-background_52683-73672.jpg);">
+                    <div class="content">
+                        <div class="name">Cloud Computing</div>
+                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(https://img.freepik.com/free-photo/man-using-digital-tablet-psd-mockup-smart-technology_53876-110815.jpg?w=996&t=st=1725873827~exp=1725874427~hmac=66a5d907f798294c282263abd378fc42eee5795b6f95d6a63d75b5d256bbc3dc);">
+                    <div class="content">
+                        <div class="name">Data Analytics</div>
+                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041861.jpg?w=826&t=st=1725873806~exp=1725874406~hmac=a58b315454dab975279274aa6eaf54f2b5e8e75532b9db2d74318dbe6511bba7);">
+                    <div class="content">
+                        <div class="name">Graphix Design</div>
+                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(https://img.freepik.com/free-photo/digital-circle-circuit-blue-background-futuristic-technology_53876-124643.jpg?w=996&t=st=1725873786~exp=1725874386~hmac=f047a20a7f029beb84ebf329877a678b6df10889d918f3a171468a1221d879c4);">
+                    <div class="content">
+                        <div class="name">Web Development</div>
+                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?w=996&t=st=1725873769~exp=1725874369~hmac=ee5308af6a77462a3e5c9bc437fbbd7ff22268ca28fcbc8a4e68cae7e6186c97);">
+                    <div class="content">
+                        <div class="name">Application Devlopement</div>
+                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=1060&t=st=1725873752~exp=1725874352~hmac=92121b9c832d43996cb3dd56292c6e0f4973d4583eeeabb71f70331e49cc0335);">
+                    <div class="content">
+                        <div class="name">It Support</div>
+                        <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+                        <button>See More</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="button">
+                <button class="prev btn btn-outline-primary"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next btn btn-outline-primary"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+            <script src="./demo code/script.js"></script>
+</div>
+    <section class="container my-5" id="expertise">
+        <h2 class="mb-4">Our Expertise</h2>
+        <div class="expertise-item border-bottom border-white d-flex justify-content-between align-items-center">
+            <span class="col-md-5">Software Development</span>
+            <span class="col-md-5">$500</span>
+            <button class="btn btn-custom col-md-2 btn-sm">Book Now</button>
+        </div>
+        <div class="expertise-item border-bottom border-white d-flex justify-content-between align-items-center">
+            <span class="col-md-5">Application Development</span>
+            <span class="col-md-5">$400</span>
+            <button class="btn btn-custom col-md-2 btn-sm">Book Now</button>
+        </div>
+        <div class="expertise-item d-flex justify-content-between align-items-center">
+            <span class="col-md-5">Web Development</span>
+            <span class="col-md-5">$300</span>
+            <button class="btn btn-custom col-md-2 btn-sm">Book Now</button>
+        </div>
+    </section>
+
+    <section class="container my-5 welcome-section" id="welcome">
+        <h2 class="mb-4">Welcome to Our World</h2>
+        <div class="row">
+            <div class="col-md-6 welcome-section-info my-auto">
+                <h3>Industry-leading Consultants</h3>
+                <p>If you're looking for strategic solutions to propel your business forward, our expert consultants are here to help. With years of experience across various industries, we bring a wealth of knowledge to every project.</p>
+                <button class="btn btn-custom">Discover More</button>
+            </div>
+            <div class="col-md-6">
+                <img src="./images/img_digi_1.jpg" alt="Chart" class="img-fluid welcome-section-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5" id="testimonials">
+        <h2 class="mb-4">Client Success Stories</h2>
+        <p>At Digispect Technologies, we are dedicated to providing our clients with exceptional attention and service. Below are testimonials from some of our esteemed clients, showcasing the quality of work we deliver. Explore their feedback and witness firsthand how our services can benefit you.</p>
+        <div class="testimonial d-flex justify-content-center">
+            <p class="col-md-4">"Working with Digispect Technologies has been a game-changer for our business. Their professionalism and results speak for themselves."</p>
+            <footer class="col-md-4 "><button class="mx-auto footer-name"> <span> Pallavi Nagrale </span> </button></footer>
+        </div>
+        <div class="testimonial d-flex justify-content-center">
+            <p class="col-md-4">"Working with Digispect Technologies has been a game-changer for our business. Their professionalism and results speak for themselves."</p>
+            <footer class="col-md-4"> <button class="mx-auto footer-name"> <span>Vaishnavi Dube </span> </button></footer>
+        </div>
+        <div class="testimonial d-flex justify-content-center">
+            <p class="col-md-4">"Working with Digispect Technologies has been a game-changer for our business. Their professionalism and results speak for themselves."</p>
+            <footer class="col-md-4"> <button class="mx-auto footer-name"> <span> Prathamesh Pawar </span> </button></footer>
+        </div>
+    </section>
+
+    <footer class="container mt-5 pb-4">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="placeholder-logo.png" alt="Logo" height="30">
+            </div>
+            <div class="col-md-4 text-start">
+                <p><strong>Contact</strong></p>
+                <p>123-456-7890</p>
+                <p>info@example.com</p>
+            </div>
+            <div class="col-md-4 text-start">
+                <p><strong>Address</strong></p>
+                <p>123 A Road Name</p>
+                <p>City, State 12345</p>
+                <p>United States</p>
+            </div>
+        </div>
+        <div class="mt-4">
+            <h5>Stay Connected with Us</h5>
+            <form>
+                <div class="mb-3 text-center">
+                    <input type="email" class="form-control mx-auto w-75" placeholder="Your Email Address">
+                </div>
+                <button type="submit" class="btn btn-custom">Subscribe</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
