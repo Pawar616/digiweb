@@ -139,6 +139,18 @@
   }
 }
 
+.mob-slider{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+.slider-body{
+    display: none !important;
+}
+.mob-slider{
+    display: block !important;
+}
+
+}
     </style>
 </head>
 
@@ -168,10 +180,8 @@
     </nav>
 
     <header class="container text-center my-5">
-        <!-- <h1 class="display-4 fw-bold">Innovative Solutions</h1>
-        <p class="lead fw-bold">Empowering Your Business</p>
-        <button class="btn btn-custom">Learn More</button> -->
-        <div class="slider-body">
+        <!-- slider-boddy image slider for pc  -->
+        <div class="slider-body ">
         <div class="container-slied">
             <div class="slide">
                 <div class="item" style="background-image: url(https://img.freepik.com/free-vector/realistic-technology-background_52683-73672.jpg);">
@@ -225,6 +235,42 @@
         </div>
             <script src="./demo code/script.js"></script>
 </div>
+
+        <!-- mob-slider image slider for mobile screen  -->
+                <div class="mob-slider">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://img.freepik.com/free-vector/realistic-technology-background_52683-73672.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/man-using-digital-tablet-psd-mockup-smart-technology_53876-110815.jpg?w=996&t=st=1725873827~exp=1725874427~hmac=66a5d907f798294c282263abd378fc42eee5795b6f95d6a63d75b5d256bbc3dc" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041861.jpg?w=826&t=st=1725873806~exp=1725874406~hmac=a58b315454dab975279274aa6eaf54f2b5e8e75532b9db2d74318dbe6511bba7" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/digital-circle-circuit-blue-background-futuristic-technology_53876-124643.jpg?w=996&t=st=1725873786~exp=1725874386~hmac=f047a20a7f029beb84ebf329877a678b6df10889d918f3a171468a1221d879c4" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg?w=996&t=st=1725873769~exp=1725874369~hmac=ee5308af6a77462a3e5c9bc437fbbd7ff22268ca28fcbc8a4e68cae7e6186c97" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-photo/medium-shot-man-wearing-vr-glasses_23-2149126949.jpg?w=1060&t=st=1725873752~exp=1725874352~hmac=92121b9c832d43996cb3dd56292c6e0f4973d4583eeeabb71f70331e49cc0335" class="d-block w-100" alt="...">
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </div>
     <section class="container my-5" id="expertise">
         <h2 class="mb-4">Our Expertise</h2>
         <div class="expertise-item border-bottom border-white d-flex justify-content-between align-items-center">
